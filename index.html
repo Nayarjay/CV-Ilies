@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ilies Amar - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Ilies Amar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#formations">Formations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experiences">Expériences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="text-center py-5">
+      <img src="photo.jpg" class="rounded-circle shadow mb-3" width="120" alt="Ilies Amar">
+      <h1 class="display-4">Ilies Amar</h1>
+      <p class="lead">Développeur Web & Étudiant en Cybersécurité - Recherche Alternance</p>
+      <a href="#contact" class="btn btn-primary mt-3">Me contacter</a>
+    </header>
+
+    <section id="formations" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-primary mb-4">🎓 Formations</h2>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Cybersécurité</h5>
+                <p class="card-text">Complémentaire Lycée Ampère (2024-2025)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Bac SN</h5>
+                <p class="card-text">Systèmes Numériques - SSIHT (2021-2024)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Secourisme</h5>
+                <p class="card-text">Collège Versailles (2020)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences" class="py-5">
+      <div class="container">
+        <h2 class="text-primary mb-4">💼 Expériences</h2>
+        <div class="accordion" id="experienceAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="exp1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">ATI - Collège Versailles</button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#experienceAccordion">
+              <div class="accordion-body">
+                Déploiement de tablettes, maintenance, montage PC, sécurité et organisation des salles informatiques (2023)
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="exp2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">Boulangerie - Carrefour Market</button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+              <div class="accordion-body">
+                Cuisson, conditionnement, réapprovisionnement et mise en rayon (2021)
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="exp3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">Herofestival - Hôte d’accueil</button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+              <div class="accordion-body">
+                Accueil, sécurité, surveillance matériel (2019, 2021, 2022)
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="exp4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">Développeur Web - Master CV</button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+              <div class="accordion-body">
+                Création de CV interactifs, responsive HTML/CSS/JS (2022-2023)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-primary mb-4">🧠 Compétences</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Techniques</h5>
+            <ul class="list-group">
+              <li class="list-group-item">HTML • CSS • JavaScript</li>
+              <li class="list-group-item">Maintenance informatique Hardware</li>
+              <li class="list-group-item">Photoshop • Word</li>
+              <li class="list-group-item">Outils IA & numériques</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Soft Skills & Langues</h5>
+            <ul class="list-group">
+              <li class="list-group-item">Travail en équipe</li>
+              <li class="list-group-item">Sens des responsabilités</li>
+              <li class="list-group-item">Polyvalence</li>
+              <li class="list-group-item">🇫🇷 Français (C3) • 🇬🇧 Anglais (B1) • 🇮🇹 Italien (B1)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 text-white" style="background-color:#0d6efd;">
+      <div class="container text-center">
+        <h2>📬 Contact</h2>
+        <p class="lead">📞 06 51 17 23 02</p>
+        <p class="lead">✉️ <a href="mailto:ilies0509@gmail.com" class="text-white">ilies0509@gmail.com</a></p>
+        <p class="lead">🔗 <a href="https://www.linkedin.com/in/ilies-amar-316432257/" class="text-white" target="_blank">LinkedIn</a></p>
+      </div>
+    </section>
+
+    <footer class="text-center py-3 text-white">
+      <p>&copy; 2025 Ilies Amar. Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
